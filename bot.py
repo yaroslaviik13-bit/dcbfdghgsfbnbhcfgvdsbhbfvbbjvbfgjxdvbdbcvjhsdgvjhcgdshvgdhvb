@@ -37,7 +37,7 @@ from telegram.constants import ChatAction
 
 # ================= НАСТРОЙКИ =================
 TELEGRAM_BOT_TOKEN = "8041973439:AAGhahaBEKUmQ5S52JHozLwllrrjrNQRS7k"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 FLOOD_TIMEOUT = 3
 ADMIN_ID = 6904586409
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
@@ -1127,4 +1127,5 @@ def main():
         print("3. Попробуй VPN если Telegram заблокирован")
 
 if __name__ == "__main__":
+
     main()
